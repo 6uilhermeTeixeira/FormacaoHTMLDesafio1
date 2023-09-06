@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Desafio de Código</title>
+    </head>
+    <body>
+        <h1 id="inicio">Primeiros Passos com HTML</h1>
+        <hr/>
+
+        <h2>Índice</h2>
+        <ul>
+            <li><a href="#historia">História da WEB</a></li>
+            <li><a href="#clients">O que são Clients</a></li>
+            <li><a href="#servers">O que são Servers</a></li>
+            <li><a href="#linguagens">Linguagens de Programação</a></li>
+            <li><a href="#ferramentas">Ferramentas Utilizadas</a></li>
+            <li><a href="#inspetor">Inspetor de Elementos</a></li>
+            <li><a href="#estrutura">Estrutura Básica do HTML</a></li>
+            <li><a href="#tags">Principais Tags</a></li>
+            <li><a href="#atributos">Atributos das Tags</a></li>
+            <li><a href="#textos">Textos</a></li>
+            <li><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+            <li><a href="#links">Links</a></li>
+
+        </ul>
+
+        <h2 id="historia">História da WEB</h2>
+        <blockquote>
+            <p><mark>"Uma das maiores criações da humanidade, a World Wide Web abre possibilidades ilimitadas para a disseminação do conhecimento e a comunicação global."</mark></p>
+            <footer>Nelson Mandela</footer>
+        </blockquote>
+        <p>A <i>World Wide Web</i>, ou simplesmente a <abbr title="World Wide Web">WEB</abbr>, é uma rede global de documentos interconectados, criada por <u>Tim Berners-Lee</u> em <sup>1989</sup>. Ela revolucionou a maneira como as pessoas <br>
+            compartilham informações e se comunicam. A Web permite que os usuários acessem e compartilhem conteúdo por meio de navegadores, usando hiperlinks. Desde então, ela cresceu <br>
+            exponencialmente, incluindo a evolução de mídias sociais, comércio eletrônico e serviços online, moldando profundamente a sociedade e a economia. Hoje, a Web continua <br>
+            a se expandir, impulsionando a inovação e a conectividade global.</p>
+        <small><a href="#inicio">(Voltar ao Início)</a></small>
+
+        <h2 id="clients">O que são Clients</h2>
+        <p>No contexto de <i>"clients x server"</i> <u>(clientes x servidor)</u>, <i>"clients"</i> referem-se aos dispositivos ou sistemas que solicitam serviços ou recursos a um servidor em uma rede de <br>
+            computadores. Os clientes são responsáveis por enviar pedidos ou requisições ao servidor, buscando acesso a informações, serviços, ou funcionalidades hospedados nele. </p>
+        <p>Eles podem ser computadores pessoais, smartphones, tablets, ou qualquer dispositivo conectado à rede que interaja com o servidor. Os clientes geralmente utilizam <br>
+            aplicativos ou programas específicos para enviar solicitações, como navegadores da web, aplicativos de email, ou aplicativos de redes sociais. A relação entre clientes e <br>
+            servidor é fundamental na arquitetura cliente-servidor, onde o servidor fornece os recursos necessários para atender às solicitações dos clientes, tornando possível a <br>
+            troca de informações e serviços na internet e em redes locais.</p>
+        <small><a href="#inicio">(Voltar ao Início)</a></small>
+
+        <h2 id="servers">O que são Servers</h2>
+        <p>No contexto de <i>"clients x server"</i> <u>(clientes x servidor)</u>, <i>"servers"</i> <u>(servidores)</u> são sistemas ou dispositivos de computação dedicados que fornecem recursos, serviços ou <br>
+            informações para os clientes em uma rede. Eles desempenham um papel central na arquitetura cliente-servidor, atendendo às solicitações dos clientes. Os servidores podem <br>
+            assumir diversas formas, como servidores web, servidores de email, servidores de banco de dados, e muitos outros, cada um com sua função específica.</p>
+        <p>Os servidores são projetados para serem confiáveis, seguros e capazes de lidar com múltiplas solicitações simultaneamente. Eles armazenam e gerenciam dados, aplicativos <br>
+            ou serviços que os clientes precisam acessar, garantindo que as informações sejam entregues eficientemente e com disponibilidade constante. Em resumo, os servidores são <br>
+            a infraestrutura central que permite a comunicação e o compartilhamento de recursos entre os clientes em uma rede.</p>
+        <small><a href="#inicio">(Voltar ao Início)</a></small>
+
+        <h2 id="linguagens">Linguagens de Programação</h2>
+        <p>Linguagens de programação são meios de comunicação entre humanos e computadores, permitindo a criação de software por meio de instruções compreensíveis tanto para <br>
+            programadores quanto para máquinas. Cada linguagem tem sua sintaxe e semântica únicas. Alguns exemplos:</p>
+            <ol>
+                <li><strong>Python</strong>: Conhecida pela legibilidade, é amplamente usada em desenvolvimento web, análise de dados e aprendizado de máquina.</li>
+                <li><strong>JavaScript</strong>: A principal linguagem para desenvolvimento web, permite criar interatividade em sites e aplicativos.</li>
+                <li><strong>Java</strong>: Usada em aplicativos empresariais, dispositivos móveis Android e sistemas embarcados.</li>
+                <li><strong>C++</strong>: Utilizada para desenvolver jogos, sistemas operacionais e aplicativos de alto desempenho.</li>
+                <li><strong>Ruby</strong>: Valorizada pela simplicidade e produtividade, é usada em desenvolvimento web, com o framework Ruby on Rails.</li>
+                <li><strong>Swift</strong>: Criada pela Apple, é usada para desenvolver aplicativos iOS e macOS.</li>
+                <li><strong>C#</strong>: Amplamente usada na criação de jogos com o motor Unity e em desenvolvimento de aplicativos Windows.</li>
+            </ol>
+        <p>Cada linguagem tem suas vantagens e é escolhida de acordo com o contexto e os requisitos do projeto.</p>
+        <small><a href="#inicio">(Voltar ao Início)</a></small>
+
+        <h2 id="ferramentas">Ferramentas Utilizadas</h2>
+        <p>As principais ferramentas utilizadas na programação web incluem:</p>
+        <ol>
+            <li><strong>Editores de Código: </strong>Como <abbr title="Virtual Studio Code">VS Code</abbr>, Sublime Text e Atom, que permitem escrever e editar código de maneira eficiente. </li>
+            <li><strong>Navegadores: </strong>Como Chrome, Firefox e Safari, que são usados para testar e depurar aplicativos <abbr title="World Wide Web">Web</abbr>. </li>
+            <li><strong>Frameworks: </strong>Como React, Angular e Vue.js, que simplificam o desenvolvimento de interfaces de usuário dinâmicas. </li>
+            <li><strong>Servidores Web: </strong>Como Apache e Nginx, que hospedam sites e aplicativos web. </li>
+            <li><strong>Bancos de Dados: </strong>Como MySQL, PostgreSQL e MongoDB, que armazenam e gerenciam dados. </li>
+            <li><strong>Controle de Versão: </strong>Como Git e GitHub, que rastreiam alterações no código-fonte. </li>
+            <li><strong>Ferramentas de Design: </strong>Como Adobe XD e Sketch, para criar layouts e protótipos de design. </li>
+            <li><strong>Ferramentas de Teste: </strong>Como Selenium e Jest, para testar a funcionalidade do aplicativo. </li>
+        </ol>
+        <p>Essas ferramentas são cruciais para o desenvolvimento web moderno, tornando-o mais eficiente e produtivo.</p>
+        <small><a href="#inicio">(Voltar ao Início)</a></small>
+
+        <h2 id="inspetor">Inspetor de Elementos</h2>
+        <p>O "Inspetor de Elementos" é uma ferramenta poderosa disponível em navegadores da web, como Google Chrome, Firefox e outros. Ele permite aos desenvolvedores e usuários <br>
+            visualizar e interagir com o código HTML, CSS e JavaScript de uma página da web em tempo real. Você pode acessá-lo clicando com o botão direito do mouse em qualquer parte <br>
+            de uma página da web e selecionando <u>"Inspecionar"</u> ou pressionando a tecla <strong>F<sub>12</sub>.</strong></p>
+        <p>O Inspetor de Elementos permite examinar a estrutura da página, editar e depurar código, visualizar recursos carregados, analisar estilos CSS, monitorar solicitações de rede <br>
+            e muito mais. É uma ferramenta essencial para desenvolvedores da web, pois ajuda a diagnosticar problemas, testar alterações e entender como as páginas da web são construídas. <br>
+            Além disso, é útil para usuários comuns que desejam entender como um site funciona ou fazer pequenas modificações temporárias na aparência de uma página da web.</p>
+        <small><a href="#inicio">(Voltar ao Início)</a></small>
+
+        <h2 id="estrutura">Estrutura Básica do HTML</h2>
+        <p>A estrutura básica do <abbr title="HyperText Markup Language">HTML</abbr> <u>(Hypertext Markup Language)</u> consiste em elementos que compõem uma página da web. Inicia com o elemento <code>< html ></code>, que engloba todo o conteúdo da página. <br>
+            Em seguida, temos o <code>< head ></code>, onde informações sobre a página, como o título, metadados e links para estilos, são definidas. O <code>< body ></code> contém o conteúdo visível da página, como texto, <br>
+            imagens, links e outros elementos.</p>
+        <p>Os elementos de marcação, como <code>< p ></code> para parágrafos ou <code>< h1 ></code> para cabeçalhos, são usados dentro do <code>< body ></code> para estruturar o conteúdo. Tags têm abertura <code>< tag ></code> e fechamento <code>< /tag ></code>, <br>
+            com exceção de algumas, como <code>< img ></code>.</p>
+        <p>Um Exemlo simples:</p>
+        <img src="/Desafio de Projeto/code.PNG">
+        <p>Essa estrutura é a base para criar páginas da web e define a hierarquia e organização do conteúdo.</p>
+        <small><a href="#inicio">(Voltar ao Início)</a></small>
+
+        <h2 id="tags">Principais Tags</h2>
+        <p>As principais tags HTML são fundamentais para estruturar e formatar conteúdo em páginas da <abbr title="Wolrd Wide Web">Web</abbr>. Algumas delas incluem:</p>
+        <ul>
+            <li><strong><code>< html >: </code></strong>Define o início e o fim de um documento <abbr title="HyperText Markup Language">HTML</abbr>. </li>
+            <li><strong><code>< head >: </code></strong>Contém informações sobre a página, como título, metadados e links para estilos e scripts. </li>
+            <li><strong><code>< title >: </code></strong>Especifica o título da página exibido na barra de título do navegador. </li>
+            <li><strong><code>< meta >: </code></strong>Fornece metadados, como conjunto de caracteres e descrições para mecanismos de busca. </li>
+            <li><strong><code>< body >: </code></strong>Contém o conteúdo visível da página, como texto, imagens e elementos interativos. </li>
+            <li><strong><code>< h1 >, < h2 >, < p >: </code></strong>Tags para cabeçalhos, parágrafos e outros elementos de texto. </li>
+            <li><strong><code>< a >: </code></strong>Cria links para outras páginas ou recursos. </li>
+            <li><strong><code>< img >: </code></strong>Exibe imagens na página. </li>
+            <li><strong><code>< ul >, < ol >, < li >: </code></strong>Usadas para criar listas não ordenadas e ordenadas. </li>
+            <li><strong><code>< div > e < span >: </code></strong>Elementos de divisão usados para agrupar e estilizar conteúdo. </li>
+        </ul>
+        <p>Essas tags são essenciais para criar estrutura e semântica em páginas da web, permitindo que os navegadores interpretem e exibam o conteúdo de forma adequada.</p>
+        <small><a href="#inicio">(Voltar ao Início)</a></small>
+
+        <h2 id="atributos">Atributos das Tags</h2>
+        <p>Os atributos são informações adicionais que podem ser fornecidas às tags HTML para controlar seu comportamento ou fornecer mais detalhes. Eles são definidos dentro das tags com <br>
+            um nome e um valor. Por exemplo, em <code>< a href="https://www.exemplo.com" ></code>, <u>"href"</u> é um atributo que define o link para "https://www.exemplo.com". Os atributos podem <br>
+            modificar a aparência, comportamento ou funcionalidade de elementos HTML, como definir cores em elementos de estilo, especificar links ou fornecer informações adicionais para <br>
+            acessibilidade. Eles desempenham um papel crucial na personalização e no funcionamento correto das páginas da web.</p>
+        <small><a href="#inicio">(Voltar ao Início)</a></small>
+
+        <h2 id="textos">Textos</h2>
+        <p>Em HTML, os textos são representados principalmente por meio da tag <code>< p ></code> para parágrafos e tags de cabeçalho, como <code>< h1 ></code>, <code>< h2 ></code>, etc., para títulos. O conteúdo de texto é colocado <br>
+            entre as tags de abertura e fechamento, e pode incluir formatação básica, como <strong>negrito</strong> <code>< strong ></code>, <i>itálico</i> <code>< em ></code>, listas <code>< ul ></code> e <code>< ol ></code>, além de links <code>< a ></code> para outras páginas. Também é <br>
+            possível utilizar estilos CSS para formatar o texto, como cores e tamanhos de fonte. O <abbr title="HyperText Markup Language">HTML</abbr> é usado para estruturar e apresentar informações de texto em páginas da web, tornando-o <br>
+            legível e acessível.</p>
+        <small><a href="#inicio">(Voltar ao Início)</a></small>
+
+        <h2 id="listas">Listas Ordenadas e Não Ordenadas</h2>
+        <p>Em HTML, listas ordenadas <code>< ol ></code> são usadas para criar listas numeradas, onde cada item é precedido por um número sequencial. Já as listas não ordenadas <code>< ul ></code> criam listas de itens <br>
+            com marcadores, como pontos ou símbolos, em vez de números. Cada item da lista é definido com a tag <code>< li ></code>. Listas ordenadas são úteis quando a ordem é relevante, como em instruções <br>
+            passo a passo, enquanto listas não ordenadas são adequadas para itens sem uma sequência específica, como uma lista de recursos. Ambas são elementos HTML que ajudam a organizar e estruturar <br>
+            informações em páginas da web.</p>
+        <small><a href="#inicio">(Voltar ao Início)</a></small>
+
+        <h2 id="links">Links</h2>
+        <p>Em HTML, os links são criados com a tag <code>< a ></code>, que permite aos usuários navegar para outras páginas ou recursos na web. O atributo <u>"href"</u> dentro da tag define o destino do link, seja <br>
+            uma URL externa, um arquivo local ou uma âncora em uma página. Links são vitais para a navegação e conectividade na web, permitindo que os usuários acessem diferentes conteúdos e <br>
+            recursos com facilidade. Eles são uma parte fundamental do hipertexto, que é a base da World Wide Web, tornando possível a interconexão de informações em todo o ambiente online.</p>
+        <small><a href="#inicio">(Voltar ao Início)</a></small>
+        
+    </body>
+</html>
